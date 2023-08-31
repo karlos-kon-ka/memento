@@ -1,0 +1,498 @@
+.bienvenidos{
+    text-align: center ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(138, 255, 5);
+   
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    margin: 0;
+    padding: 0;
+    background-image: url(graffff.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: sans-serif;
+}
+.header{
+    border: solid 1px;
+    background-color: rgb(122, 138, 33);
+    height: 85px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color: rgb(242, 243, 248);
+    text-decoration: none;
+    font-size: 25PX;
+}
+.logo{
+    font-size: 30px;
+    padding: 0 40px;
+    font-weight: bold;
+    line-height: 80px;
+    
+}
+.ul{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.ul-item{
+    font-size: 25px;
+    margin: 0 0 10px 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.nav-menu-link:hover{
+    background-color: rgba(15, 83, 201, 0.733);
+    padding: 8px 8px 12px 12px;
+    transition: 0.4s;
+    
+
+}
+.nav-link{
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.nav-toggle{
+    color: antiquewhite;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+.well{
+ 
+   border: solid 2px;
+   border-radius: 10px;
+   width: 15%;
+   align-items: center;
+   background-color:rgba(10,5,56,0.5);
+   margin-left: 40%;
+   transition: 0.5S;
+   line-height: 60PX;
+   text-transform: uppercase;
+   text-align: center;
+   
+}
+.parra-co{
+    color: rgb(235, 242, 243);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+}
+.fotito{
+    height: 60px;
+    width: 60px;
+    margin: 10px 10px;
+    border-radius: 30px;
+}
+ 
+.mapa{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+   
+   
+    
+    
+
+   
+    
+}
+.foto-nosotros{
+    background-image: url(garfiti.jpg);
+}
+.foto-ubicacion{
+    background-image: url(ciudade.jpeg);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+   
+    
+}
+
+
+.columna1{ 
+    background-color: rgba(35, 4, 119, 0.836);
+    
+    border: solid 1px rgb(244, 248, 24);
+    margin-left: 20px;
+    border-radius: 10px;
+ 
+
+}
+.columna2{
+    background-color: rgba(177, 14, 22, 0.836);
+    padding:20px 20px;
+    border: solid 1px rgb(244, 248, 24);
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.container-fotos{
+    width: 80%;
+    margin-left: 190px;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+
+}
+.palabra-galeria{
+    display: flex;
+    justify-content: center;
+   
+    
+   
+    
+    
+
+    
+    
+   
+    
+}
+.palabra-galeria:hover{
+    transition: 0.3s;
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+}
+
+.galeri{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
+    grid-gap: 30px;
+
+}
+
+.titulos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(112, 110, 214);
+    margin-top: 15px;
+}
+.foto-contacto{
+    margin: 0;
+    padding: 0;
+    background-image: url(telef.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: sans-serif;
+}
+.ig{
+    height: 100px;
+    width: 500px;
+    padding: 0;
+
+}
+.titulo-galeria{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(230, 255, 6);
+    background-color: #7e1fbd;
+    margin: 20px 20px;
+    padding: 30px 30px 30px 30px;
+    
+    font-size: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    
+   
+    
+}
+.galeri img{
+    width: 90%;
+}
+
+.superboton{
+    border: 0;
+    background-image: linear-gradient(150deg,#06000a, rgb(75, 9, 255), #00ddff,  );
+    border-radius: 8px;
+    color: rgba(72, 72, 75, 0.993);
+    display: flex;
+    font-size: 24px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    margin-bottom: 100px;
+
+    
+}
+.botonspan{
+    background-color: #03010ae1;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    
+
+    
+}
+.superboton:hover span{
+    background: none;
+}
+.superboton:active{
+    transform: scale(0.9);
+}
+
+
+
+.fotogaleri{
+    border: solid 4px rgb(29, 161, 51);
+    border-radius: 20px;
+}
+.fotogaleri2{
+    border: solid 4px rgb(88, 110, 236);
+}
+.fotogaleri3{
+    border: solid 4px rgb(146, 58, 23);
+}
+.fotogaleri4{
+    border: solid 4px rgb(109, 95, 170);
+}
+
+.textarea{
+    background-color: aqua;
+    border: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 500px;
+
+}
+.go-top-container{
+position: fixed;
+bottom: 4rem;
+right: 4rem;
+width:6.6rem ;
+height: 6.6rem;
+ z-index: -1;
+}
+.go-top-button{
+    width: 0rem;
+    height: 0rem;
+  background: #7e1fbd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .2s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.nosotrosweb{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    font-size: 1.7rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 233, 31);
+    
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.go-top-button i{
+    position: absolute;
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%, ) scale(0);
+    color: wheat;
+    transition: 0.2s;
+}
+.show{
+    z-index: 10;
+}
+.show .go-top-button{
+    animation: popup .3s ease-in-out;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: 11;
+
+}
+
+.show i{
+    transform: translate(-50%, -50% ) scale(1);
+
+}
+@keyframes popup{
+    0%{
+        width: 0rem;
+        height: 0rem;
+
+    }
+    50%{
+        width: 8rem;
+        height: 8rem;
+    }
+    100%{
+        width: 6rem;
+        height: 6rem;
+    }
+
+}
+.contenedor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.listadeenlaces{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.button1{
+    width: 200px;
+    height: 200px;
+    background: rgb(92, 228, 14);
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    color: #1c3abe;
+    padding: 30px;
+    font-size: 100px;
+    transition: .3s;
+}
+.button1:hover{
+    background: #ade2de;
+    color: #4649f0 ;
+    box-shadow: 3px 3px 50px yellow;
+}
+.enlaceig{
+
+}
+.button2{
+    width: 200px;
+    height: 200px;
+    background: rgb(92, 228, 14);
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    color: #1c3abe;
+    padding: 30px;
+    font-size: 100px;
+    transition: .3s;
+}
+.button2:hover{
+    background: #ade2de;
+    color: #4649f0 ;
+    box-shadow: 3px 3px 50px yellow;
+
+}
+.button3{
+    width: 200px;
+    height: 200px;
+    background: rgb(92, 228, 14);
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    color: #1c3abe;
+    padding: 30px;
+    font-size: 100px;
+    transition: .3s;
+}
+.button3:hover{
+    background: #ade2de;
+    color: #4649f0 ;
+    box-shadow: 3px 3px 50px yellow;
+}
+.volver{
+    text-decoration: none;
+
+}
+.boton-ubi{
+    text-decoration: none;
+
+}
+.botonvolverposicion{
+    display: flex;
+    justify-content: center;
+}
+
+.botonvolver{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 20px ;
+   margin: 10px 150px;
+   padding: 10px 10px 10px 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.botonvolver:hover{
+    transition: 0.5s;
+    background-color: rgb(190, 179, 77);
+   
+    box-shadow: #06000ac2;
+}
+
+
+
+
+
+.animacion1{
+    height: 200px;
+    width: 200px;
+    background: #06000a;
+    border-radius: 120px;
+animation-name: animacion1;
+margin-top: 200px;
+margin-left: 5px;
+animation-duration: 6s;
+animation-delay: 0.5s;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+position: relative;
+
+}
+@keyframes animacion1 {
+    0% {background: #06000a;left:0px; top: 0px;}
+    10% {background: #7d7b7e52; left: 30px; top: 60px;}
+    20%{background: #e6dcec85;left:100px}
+    30%{background: #e62987;left:130px}
+    40%{background: #99ad8e50;left:190px}
+    60%{background: #02ff24;left:230px}
+    70%{background: #044702;left:290px}
+    80%{background: #1b0527;left:340px}
+    80%{background: #420e6479;left:440px}
+    100%{background: #000000;left:500px}
+    
+}
