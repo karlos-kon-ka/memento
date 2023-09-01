@@ -47,6 +47,15 @@ body{
     line-height: 80px;
     
 }
+.imagendeinicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fotologocabeza{
+    border-radius: 50%;
+}
 .ul{
     display: flex;
     margin-right: 40px;
@@ -109,19 +118,7 @@ body{
     border-radius: 30px;
 }
  
-.mapa{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-   
-   
-    
-    
 
-   
-    
-}
 .foto-nosotros{
     background-image: url(garfiti.jpg);
 }
@@ -195,7 +192,7 @@ body{
 
 .titulos{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(112, 110, 214);
+    color: rgb(249, 249, 255);
     margin-top: 15px;
 }
 .foto-contacto{
@@ -320,6 +317,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #06000ad3;
 }
 
 
@@ -331,15 +329,16 @@ body{
     background: #00ddffd8;
     padding-top: 15px;
     padding-bottom: 15px;
+    border: solid rgb(95, 61, 61) 3px;
     
     
     
 }
 .fotomia{
     font-size: 200px;
-    border-radius: 250px;
+    border-radius: 50%;
     border: solid rgba(0, 0, 0, 0.836);
-    margin-left: 200px;
+    margin-left: 70px;
   
 }
 
@@ -387,7 +386,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;
+   
+   
 }
 .listadeenlaces{
     display: flex;
@@ -499,15 +499,24 @@ animation-iteration-count: infinite;
 position: relative;
 
 }
-@keyframes animacion1 {
-    0% 
-    10% 
-    30%
-    40%
-    60% 
-    70%
-    80%
-    90%
-    100%
+
+
+.imginspiracion{
+    width: 300px;
+    height: 200px;
+   
     
+}
+.divimg{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.parrafopresentacion{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+    padding-top: 25px;
 }
