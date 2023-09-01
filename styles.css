@@ -294,39 +294,55 @@ body{
     margin-left: 500px;
 
 }
-.go-top-container{
-position: fixed;
-bottom: 4rem;
-right: 4rem;
-width:6.6rem ;
-height: 6.6rem;
- z-index: -1;
-}
-.go-top-button{
-    width: 0rem;
-    height: 0rem;
-  background: #7e1fbd;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: .2s;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
+
 .nosotrosweb{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.contenedor{
-    font-size: 1.7rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 233, 31);
+
+
+.contenedortitulo{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+   width: 30%;
     
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 35%;
 }
+.acercademi{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fcfcfc;
+    border: rgb(226, 52, 52)  solid 4px;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.contenedorfotomia{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    height: 250px;
+    background: #00ddffd8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+    
+}
+.fotomia{
+    font-size: 200px;
+    border-radius: 250px;
+    border: solid rgba(0, 0, 0, 0.836);
+    margin-left: 200px;
+  
+}
+
 .go-top-button i{
     position: absolute;
     font-size: 1.7rem;
@@ -484,15 +500,14 @@ position: relative;
 
 }
 @keyframes animacion1 {
-    0% {background: #06000a;left:0px; top: 0px;}
-    10% {background: #7d7b7e52; left: 30px; top: 60px;}
-    20%{background: #e6dcec85;left:100px}
-    30%{background: #e62987;left:130px}
-    40%{background: #99ad8e50;left:190px}
-    60%{background: #02ff24;left:230px}
-    70%{background: #044702;left:290px}
-    80%{background: #1b0527;left:340px}
-    80%{background: #420e6479;left:440px}
-    100%{background: #000000;left:500px}
+    0% 
+    10% 
+    30%
+    40%
+    60% 
+    70%
+    80%
+    90%
+    100%
     
 }
