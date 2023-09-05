@@ -120,10 +120,10 @@ body{
  
 
 .foto-nosotros{
-    background-image: url(garfiti.jpg);
+    background-image: url(mush.webp);
 }
 .foto-ubicacion{
-    background-image: url(ciudade.jpeg);
+    background-image: url(ins.jpg);
 }
 
 .container{
@@ -131,6 +131,8 @@ body{
     justify-content: center;
     text-align: center;
     margin-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
    
     
 }
@@ -196,12 +198,13 @@ body{
     margin-top: 15px;
 }
 .foto-contacto{
-    margin: 0;
-    padding: 0;
-    background-image: url(telef.jpeg);
+   
+   
+   
+    background-image: url(neon.webp);
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+   
+    background-position: top;
     font-family: sans-serif;
 }
 .ig{
@@ -250,6 +253,8 @@ body{
 }
 .botonspan{
     background-color: #03010ae1;
+    display: flex;
+    align-items: center;
     padding: 16px 24px;
     border-radius: 6px;
     transition: 0.3s;
@@ -393,6 +398,7 @@ body{
     display: flex;
     gap: 100px;
     justify-content: center;
+    list-style: none;
 }
 .button1{
     width: 200px;
@@ -499,19 +505,37 @@ animation-iteration-count: infinite;
 position: relative;
 
 }
+@keyframes animacion1{
+
+
+}
 
 
 .imginspiracion{
     width: 300px;
     height: 200px;
+    border: solid rgb(65, 17, 17) 3px;
+    border-radius: 5px;
+    padding: 1px 1px 1px 1px;
    
     
+}
+
+.tituin{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 250, 244);
+    margin-bottom: 15px;
 }
 .divimg{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 45px;
+    
 }
 
 .parrafopresentacion{
@@ -520,3 +544,44 @@ position: relative;
     font-size: 25px;
     padding-top: 25px;
 }
+.tablas{
+   justify-content: center;
+   text-align: center;
+}
+.tituloinicialweb{
+    font-size: 60px;
+    color: rgb(245, 249, 252);
+    border-style: hidden;
+    border-color: #2f9211;
+    background-color: #06000a;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 10px 10px 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
