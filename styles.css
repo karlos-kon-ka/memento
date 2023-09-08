@@ -21,13 +21,14 @@ body{
     font-family: sans-serif;
 }
 .header{
-    border: solid 1px;
-    background-color: rgb(122, 138, 33);
+    border: solid 1px white;
+    background-color: rgba(161, 46, 46, 0.753);
     height: 85px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    backdrop-filter: blur(0.4rem);
 }
 .nav{
     display: flex;
@@ -120,7 +121,7 @@ body{
  
 
 .foto-nosotros{
-    background-image: url(monta.webp);
+    background-image: url(carretera.jpg);
     background-size: cover;
 
 
@@ -137,6 +138,7 @@ body{
     margin-right: 20px;
     padding-left: 30px;
     padding-right: 30px;
+    
    
     
 }
