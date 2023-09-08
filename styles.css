@@ -120,10 +120,14 @@ body{
  
 
 .foto-nosotros{
-    background-image: url(mush.webp);
+    background-image: url(monta.webp);
+    background-size: cover;
+
+
 }
 .foto-ubicacion{
     background-image: url(ins.jpg);
+    background-size: cover;
 }
 
 .container{
@@ -179,11 +183,7 @@ body{
    
     
 }
-.palabra-galeria:hover{
-    transition: 0.3s;
-    padding: 15px 15px 15px 15px;
-    border-radius: 20px;
-}
+
 
 .galeri{
     display: grid;
@@ -198,9 +198,7 @@ body{
     margin-top: 15px;
 }
 .foto-contacto{
-   
-   
-   
+     
     background-image: url(neon.webp);
     background-size: cover;
    
@@ -315,14 +313,16 @@ body{
 .acercademi{
     font-family: 'Times New Roman', Times, serif;
     color: #fcfcfc;
-    border: rgb(226, 52, 52)  solid 4px;
+    border: rgb(230, 211, 211)  solid 1px;
+    border-radius: 10px;
     width: 300px;
     padding: 10px 10px 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #06000ad3;
+    
+    backdrop-filter: blur(0.4rem);
 }
 
 
@@ -331,10 +331,14 @@ body{
     text-align: center;
     justify-content: space-between;
     height: 250px;
-    background: #00ddffd8;
+    backdrop-filter: blur(0.4rem);
+    width: 70%;
+    margin-left: 15%;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: solid rgb(95, 61, 61) 3px;
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 10px;
+   
     
     
     
@@ -493,19 +497,36 @@ body{
 .animacion1{
     height: 200px;
     width: 200px;
-    background: #06000a;
+    background: #8f23d6;
     border-radius: 120px;
 animation-name: animacion1;
 margin-top: 200px;
 margin-left: 5px;
 animation-duration: 6s;
 animation-delay: 0.5s;
-animation-timing-function: ease;
+animation-timing-function: linear;
 animation-iteration-count: infinite;
 position: relative;
 
 }
+.fotoanimacion{
+    height: 200px;
+    width: 200px;
+   border: solid rgb(96, 96, 219);
+    border-radius: 120px;
+}
 @keyframes animacion1{
+    0%{left: 0%;}
+    10%{left: 10%;}
+    20%{left: 20%;}
+    30%{left: 30%;}
+    40%{left: 40%;}
+    50%{left: 50%;}
+    60%{left: 60%;}
+    70%{left: 70%;}
+    80%{left: 80%;}
+    90%{left: 85%;}
+    100%{left: 0%;}
 
 
 }
@@ -514,10 +535,10 @@ position: relative;
 .imginspiracion{
     width: 300px;
     height: 200px;
-    border: solid rgb(65, 17, 17) 3px;
+    border: solid rgb(255, 253, 253) 2px;
     border-radius: 5px;
     padding: 1px 1px 1px 1px;
-   
+    margin-bottom: 50px;
     
 }
 
@@ -543,6 +564,10 @@ position: relative;
     color: white;
     font-size: 25px;
     padding-top: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
 }
 .tablas{
    justify-content: center;
@@ -560,7 +585,17 @@ position: relative;
 
 
 }
-
+.introduccion{
+    font-size: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
 
