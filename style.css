@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(139, 119, 93);
+    margin-left: 30px;
+    margin-top:30px;
+    display: grid;
+    place-items: center;
+}
+.intro{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.822);
+    backdrop-filter: blur(0.4rem);
+}
+.titulo{
+    font-size: 50px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    
+}
+.containerparrafo{
+    
+    backdrop-filter: blur(0.4rem);
+}
+.parrafo{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fotocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.foto{
+    height: 80px;
+    width: 90px;
+    margin: 10px 10px 10px;
+    border-radius: 30%;
+}
+.calculadora{
+    background-color: rgb(38, 185, 149);
+    color: white;
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    margin-bottom: 50px;
+
+}
+.pantalla{
+    grid-column: 1/-1;
+    background-color: rgb(179, 130, 74);
+    padding:1.5rem ;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight: 600;
+  
+}
+.btn{
+    background-color: rgb(2, 0, 3);
+    color: white;
+    border:0 ;
+    border-radius: 10%;
+    padding:1.5rem .5rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    background-color: rgb(100, 94, 105);
+    
+}
+#cero{
+    grid-column: span 2;
+   
+}
+#igual{
+    grid-row: span 2;
+    background-color: blueviolet;
+}
+#igual:hover{
+    background-color: rgb(128, 74, 74);
+}
