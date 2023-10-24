@@ -1,3 +1,6 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
 .bienvenidos{
     text-align: center ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -14,11 +17,14 @@ body{
    
     margin: 0;
     padding: 0;
-    background-image: url(graffff.jpeg);
+    background-image: url(programacion.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    
 }
 .header{
     border: solid 1px white;
@@ -130,72 +136,22 @@ body{
     background-image: url(ins.jpg);
     background-size: cover;
 }
-
-.container{
+.introins{
+    font-size: 25px;
+    color:  white;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
-    justify-content: center;
     text-align: center;
-    margin-right: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-  
-   
-    
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgba(25, 61, 61, 0.753);
+    border: solid 2px aqua;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(00.4rem);
 }
 
 
-.columna1{ 
-    background-color: rgba(35, 4, 119, 0.836);
-    
-    border: solid 1px rgb(244, 248, 24);
-    margin-left: 20px;
-    border-radius: 10px;
- 
-
-}
-.columna2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(177, 14, 22, 0.836);
-   
-    border: solid 1px rgb(244, 248, 24);
-    border-radius: 10px;
-
-}
-.container-fotos{
-    width: 80%;
-    margin-left: 190px;
-    min-height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 10px;
-
-}
-.palabra-galeria{
-    display: flex;
-    justify-content: center;
-   
-    
-   
-    
-    
-
-    
-    
-   
-    
-}
-
-
-.galeri{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
-    grid-gap: 30px;
-
-}
 
 .titulos{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -216,25 +172,8 @@ body{
     padding: 0;
 
 }
-.titulo-galeria{
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(230, 255, 6);
-    background-color: #7e1fbd;
-    margin: 20px 20px;
-    padding: 30px 30px 30px 30px;
-    
-    font-size: 40px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
-    
-   
-    
-}
-.galeri img{
-    width: 90%;
+.quiensoy2{
+    background-image: url(monta.webp);
 }
 
 .superboton{
@@ -275,20 +214,13 @@ body{
 }
 
 
+.libros{
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+}
 
-.fotogaleri{
-    border: solid 4px rgb(29, 161, 51);
-    border-radius: 20px;
-}
-.fotogaleri2{
-    border: solid 4px rgb(88, 110, 236);
-}
-.fotogaleri3{
-    border: solid 4px rgb(146, 58, 23);
-}
-.fotogaleri4{
-    border: solid 4px rgb(109, 95, 170);
-}
 
 .textarea{
     background-color: aqua;
@@ -349,12 +281,32 @@ body{
     
 }
 .fotomia{
-    font-size: 200px;
-    border-radius: 50%;
-    border: solid rgba(0, 0, 0, 0.836);
-    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  
   
 }
+.foto{
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+    border: solid 2px aqua;
+
+
+}
+.nombre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nombre{
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 
 .go-top-button i{
     position: absolute;
@@ -521,17 +473,16 @@ animation-direction: alternate;
     border-radius: 120px;
 }
 @keyframes animacion1{
-    0%{left: 0%;}
-    10%{left: 10%;}
-    20%{left: 20%;}
-    30%{left: 30%;}
-    40%{left: 40%;}
-    50%{left: 50%;}
-    60%{left: 60%;}
-    70%{left: 70%;}
-    80%{left: 80%;}
-    90%{left: 95%;}
-    100%{left: 100%;}
+    0%;
+    20%
+    30%
+    40%
+    50%
+    60%
+    70%
+    80%
+    90%
+    100%
     
 
 
@@ -556,6 +507,8 @@ animation-direction: alternate;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(255, 250, 244);
     margin-bottom: 15px;
+    cursor: pointer;
+    width: 50%;
 }
 .divimg{
     list-style: none;
@@ -602,20 +555,143 @@ animation-direction: alternate;
     justify-content: center;
     align-items: center;
     margin-bottom: 90px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    border: #06000a solid 0.5px;
+    background-color: #06000abe;
+    padding: 10px 10px 10px 10px;
+   border-radius: 10px;
+   margin-bottom: 15px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.div{
+    background-image: url(glo.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 40%;
+    height: 100%;
+
+}
+.parraaa{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
 }
 
 
+.calculadora{
+    background-color: rgb(19, 51, 43);
+    color: white;
+    width: 380px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    margin-bottom: 50px; 
+    border: solid 2px ;
+    border-color: aqua;
 
+}
+.pantalla{
+    grid-column: 1/-1;
+    background-color: rgba(116, 107, 98, 0.856);
+    padding:1.5rem ;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight: 600;
+  
+}
+.btn{
+    background-color: rgb(2, 0, 3);
+    color: white;
+    border:0 ;
+    border-radius: 10%;
+    padding:1.5rem .5rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px ;
+    border-color: aqua;
+}
+.btn:hover{
+    background-color: rgb(100, 94, 105);
+    transition: 0.2s;
+    
+}
+#cero{
+    grid-column: span 2;
+   
+}
+#igual{
+    grid-row: span 2;
+    background-color: rgb(0, 0, 0);
+}
+#igual:hover{
+    background-color: rgb(128, 74, 74);
+}
 
+.texto1{
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pro-cal{ border: #06000a solid 0.5px;
+    background-color: #06000abe;
+    padding: 10px 10px 10px 10px;
+   border-radius: 10px;
+   margin-bottom: 15px;
+   font-family: 'Times New Roman', Times, serif;
 
+}
+.texto2{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.705);
+    border: #06000a solid 0.5px;
+    
+    padding: 10px 10px 10px 10px;
+   border-radius: 10px;
+   margin-bottom: 15px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.formgmail{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.btn6{
+    
+    
 
-
-
-
+}
+.formu{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
 
 
 
