@@ -1,17 +1,10 @@
-from flask import Flask,render_template
-
-app = Flask("prueba_flask")
-
-@app.route("/")
-def hello_world():
-    return render_template('index.html')
-
-@app.route("/contacto")
-def contacto():
-    return render_template('contactos.html')
+sueldo = 200
 
 
-if __name__ == "__main__":
-    app.run(debug=True,host='0.0.0.0', port='5000')
-   
+if sueldo >= 1000:
+    print('cobras bien')
+elif sueldo >= 600:
+    print('Podes vivir')    
 
+
+else:print('sos pobre')    
