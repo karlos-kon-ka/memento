@@ -1,10 +1,12 @@
-sueldo = 200
+familia= ('Jose','Ana Maria','carlos')
 
+horas_jose = 8
+horas_ana = 10
+horas_carlos = 6
 
-if sueldo >= 1000:
-    print('cobras bien')
-elif sueldo >= 600:
-    print('Podes vivir')    
+horas_total = horas_jose + horas_ana + horas_carlos
 
-
-else:print('sos pobre')    
+conclusion_carlos = f'Carlos pasa fuera de la casa {horas_carlos} horas seguidas'
+conclusion_jose = f'Jose pasa fuera de la casa {horas_jose} horas seguidas'
+conclusion_ana = f'Ana Maria pasa fuera de la casa {horas_ana} horas seguidas'
+print ( + horas_total    )

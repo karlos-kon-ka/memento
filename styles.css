@@ -28,8 +28,8 @@ body{
 }
 .header{
     border: solid 1.5px white;
-    background-color: rgba(161, 46, 46, 0.753);
-    height: 85px;
+    background-color: rgba(46, 157, 212, 0.769);
+    height: 95px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -46,6 +46,7 @@ body{
     color: rgb(242, 243, 248);
     text-decoration: none;
     font-size: 25PX;
+        
 }
 .logo{
     font-size: 30px;
@@ -277,7 +278,11 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 150px;
-  
+  background-color: #06000a97;
+  padding: 25px 25px 25px 25px;
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
   
 }
 .foto{
@@ -718,8 +723,8 @@ animation-direction: alternate;
     background-color: rgb(154, 147, 147);
     padding: 15px 15px 15px 15px;
     border-radius: 10px;
-    margin-top: 50px; 
-    position: absolute;  
+    
+    
     bottom: 0;
     width: 100%;
 }
