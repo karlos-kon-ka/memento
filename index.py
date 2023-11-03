@@ -1,12 +1,16 @@
-familia= ('Jose','Ana Maria','carlos')
+import random
+from werkzeug.security import generate_password_hash
 
-horas_jose = 8
-horas_ana = 10
-horas_carlos = 6
+minus = 'abcdefghijklmnñopqrstuvwxyz'
+mayus = minus.upper()
+simbolos = '@!()?¿,.'
+numeros = '0123456789'
+base = minus+mayus+simbolos+numeros
+longitud = 12 
 
-horas_total = horas_jose + horas_ana + horas_carlos
+for _ in range(10):
+    muestra = random.sample( base, longitud)
+    password = "".join(muestra)
+    encriptacion = generate_password_hash(password)
+    print("{} → {}".format(password,encriptacion))
 
-conclusion_carlos = f'Carlos pasa fuera de la casa {horas_carlos} horas seguidas'
-conclusion_jose = f'Jose pasa fuera de la casa {horas_jose} horas seguidas'
-conclusion_ana = f'Ana Maria pasa fuera de la casa {horas_ana} horas seguidas'
-print ( + horas_total    )

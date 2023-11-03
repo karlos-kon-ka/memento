@@ -45,7 +45,9 @@ body{
 .nav-link{
     color: rgb(242, 243, 248);
     text-decoration: none;
-    font-size: 25PX;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
         
 }
 .logo{
@@ -274,11 +276,15 @@ body{
     
 }
 .fotomia{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  
     margin-top: 150px;
-  background-color: #06000a97;
+  background-color: #2c15b2b7;
+  border: solid 2px;
+  border-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
   padding: 25px 25px 25px 25px;
   width: 100%;
   margin-left: 50px;
@@ -286,10 +292,11 @@ body{
   
 }
 .foto{
-    height: 200px;
-    width: 250px;
-    border-radius: 50%;
-    border: solid 2px aqua;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+   
+  
 
 
 }
@@ -300,13 +307,13 @@ body{
 }
 #nombre{
     font-size: 30px;
-    background-color: #06000aa9;
+    background-color: #2d7515d6;
     border: solid 1.5px;
     border-color: #00ddff;
     padding: 15px 15px 15px 15px;
     border-radius: 15px;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -475,8 +482,7 @@ animation-direction: alternate;
     height: 200px;
     border: solid rgb(255, 253, 253) 2px;
     border-radius: 5px;
-    padding: 1px 1px 1px 1px;
-    margin-bottom: 50px;
+    
     
 }
 
@@ -496,6 +502,15 @@ animation-direction: alternate;
     display: flex;
     justify-content: center;
     gap: 45px;
+    background-color: #3d4546d6;
+    border: solid 1.5px;
+    padding: 15px 15px  15px 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
     
 }
 
@@ -567,8 +582,9 @@ animation-direction: alternate;
 .calculadora{
     background-color: rgb(19, 51, 43);
     color: white;
-    width: 380px;
+    width: 480px;
     max-width: 100%;
+    margin-top: 30px;
     padding: 1.5rem;
     border-radius: 1rem;
     display: grid;
@@ -624,9 +640,10 @@ animation-direction: alternate;
     color: white;
     font-size: 25px;
     margin-top: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 80px;
 }
 .texto1 h1{
     text-align: center;
@@ -634,13 +651,16 @@ animation-direction: alternate;
     color: #5fc6db;
     background-color: #06000aaf;
     border: solid 2px;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 300px;
+    margin-left: 300px;
     border-radius: 15px;
     border-color: #00ddff;
     padding: 5px 5px 5px 5px;
     margin-bottom: 20px;
     
+}
+.texto1 p{
+    padding: 25px;
 }
 
 .pro-cal{ border: #06000a solid 0.5px;
@@ -659,13 +679,17 @@ animation-direction: alternate;
     margin-left: 10px;
     margin-right: 10px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.705);
-    border: #06000a solid 0.5px;
+    background-color: rgba(23, 23, 23, 0.631);
+    border: solid 1px;
     border-color: white;
     padding: 10px 10px 10px 10px;
    border-radius: 20px;
    margin-bottom: 30px;
+   
    font-family: 'Times New Roman', Times, serif;
+}
+.texto2 p{
+    padding: 20px;
 }
 .intro-contacto{
     margin-top: 100px;
@@ -789,3 +813,24 @@ animation-direction: alternate;
     align-items: center;
     height: 150px;
 }
+
+
+
+.video{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+    
+    
+
+
+.video::after{
+    content: "";
+    width: 100%;
+    padding-bottom: ;
+    display: block;
+    
+}
+
