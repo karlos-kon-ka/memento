@@ -45,7 +45,7 @@ body{
 .nav-link{
     color: rgb(242, 243, 248);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     justify-content: center;
     text-align: center;
         
@@ -80,16 +80,21 @@ body{
     font-family: 'Times New Roman', Times, serif ;
 }
 .nav-menu-link:hover{
-    background-color: rgba(28, 102, 230, 0.8);
+    background-color: rgba(74, 115, 81, 0.711);
     padding: 8px 8px 12px 12px;
     transition: 0.3s;
+    border-radius: 10px;
     
 
 }
-.nav-link{
-    padding: 8px 12px;
-    border-radius: 20px;
+.nav-link {
+    color: rgb(242, 243, 248);
+    text-decoration: none;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
 }
+
 .nav-toggle{
     color: antiquewhite;
     background: none;
@@ -135,9 +140,49 @@ body{
 
 
 }
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+    }
+
+    .logo {
+        padding: 20px 0;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .ul {
+        margin: 0;
+    }
+
+    .ul-item {
+        margin: 0 0 10px 0;
+    }
+}   
 .foto-ubicacion{
     background-image: url(ins.jpg);
     background-size: cover;
+}
+@media screen and (min-width: 1200px) {
+    .nav-link {
+        font-size: 40px;
+    }
+
+    .logo {
+        font-size: 40px;
+        padding: 0 60px;
+    }
+
+    .ul-item {
+        font-size: 35px;
+    }
 }
 .introins{
    font-size: 30px;
@@ -822,15 +867,31 @@ animation-direction: alternate;
     margin-bottom: 15px;
     margin-top: 20px;
 
-    
+} 
     
 
 
-.video::after{
-    content: "";
-    width: 100%;
-    padding-bottom: ;
-    display: block;
+.pyproyecto{
+    text-align: center;
     
 }
+.pyproyecto p{
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: #7f8109;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.img.py{
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 150px;
+    background-color: rgba(205, 134, 63, 0.669);
+}
+
+
 
